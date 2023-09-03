@@ -1,0 +1,107 @@
+/* Reset some default styles to ensure consistency across browsers */
+html, body, h1, h2, h3, p, ul, li, form, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  /* Apply a background color and font styles to the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Header styles */
+  #header {
+    background-color: #ff8c00;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #header h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Navigation bar styles */
+  #nav-bar {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    font-weight: bold;
+  }
+  
+  /* Main section styles */
+  .main {
+    padding: 20px;
+  }
+  
+  /* Section heading styles */
+  .section-heading {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  /* Content section styles */
+  .sec-padding {
+    padding: 20px;
+  }
+  
+  .sec-content-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Image styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #ff8c00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ff6600;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .eye-grabber {
+    margin-top: 20px; /* Add margin to the top */
+    padding: 20px; /* Add padding to create space around the content */
+    text-align: center; /* Center the content horizontally */
+  }
+  
+  .eye-grabber h1 {
+    margin-bottom: 10px; /* Add margin below the first heading */
+  }
+  
+  .eye-grabber h2 {
+    margin-top: 10px; /* Add margin above the second heading */
+  }
+  
+  /* Rest of your existing CSS styles */
+  
